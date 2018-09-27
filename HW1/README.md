@@ -38,7 +38,7 @@ The website itself has 4 pages and one CSS style sheet: home page, two recipe pa
 
 I used the list components on the recipe pages as shown below in the screenshot and code snippet:
 
-![Ordered and unordered list](recipepage.png)
+![Ordered and unordered list](recipepage.PNG)
 
 ```html
 <div class="container">
@@ -78,7 +78,7 @@ I used the list components on the recipe pages as shown below in the screenshot 
 
 Then I used a table on the contact page as shown below in the screenshot and code snippet:
 
-![Table](contactpage.png)
+![Table](contactpage.PNG)
 
 ```html
 <!-- Table -->
