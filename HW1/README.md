@@ -1,13 +1,14 @@
 # Homework 1
 For the first homework assignment, we were asked to use Git (from the command line), HTML, CSS, and Bootstrap. I am familiar with all of these though it has been a while since I have started web projects from the ground up. Lately, I've mostly had to use ASP.NET MVC with Razor views. 
 
-* [Final assignment website](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
+* [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
+* [Final website](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
 * [Code repo for final assignment website](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW1)
 
 ---
 
 ## Setup
-There wasn't much for me to setup software/tooling wise. I currently have Visual Studio, Visual Studio Code and cmder already installed to my local machine. I use cmder because you run different shells out of it as well as Git command line operations and it's just a more readable (prettier) command line interface. I am familiar with how Git works and have used it for GitHub and for Visual Studio Team Services (now Azure DevOps) but never for BitBucket. Per the instructions on this assignment, I went with GitHub.  
+There wasn't much for me to setup software/tooling wise. I currently have Visual Studio, Visual Studio Code and [cmder](http://cmder.net/) already installed to my local machine. I've used quite a few command line interfaces before and have stuck with [cmder](http://cmder.net/) for the past couple of years at work and at home. It just looks better than others I have used, plain and simple  (in my opinion, anyway). I am familiar with how Git works and have used it for GitHub and for Visual Studio Team Services (now Azure DevOps) but never for BitBucket. Per the instructions on this assignment, I went with GitHub.  
 
 ---
 
