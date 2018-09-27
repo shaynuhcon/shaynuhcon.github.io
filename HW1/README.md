@@ -1,8 +1,8 @@
 # Homework 1
 For the first homework assignment, we were asked to use Git (from the command line), HTML, CSS, and Bootstrap. I am familiar with all of these though it has been a while since I have started web projects from the ground up. Lately, I've mostly had to use ASP.NET MVC with Razor views. 
 
-* [Click here for final assignment site](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
-* [Code repo for final assignment site](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW1)
+* [Final assignment website](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
+* [Code repo for final assignment website](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW1)
 
 ---
 
@@ -38,7 +38,12 @@ The ```-A``` option in ```git add -A``` just adds all files to staging. There's 
 ---
 
 ## The Website
-I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists.  
+
+I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists. Didn't think I needed to get too fancy 
+
+Here's a screenshot of the home page (index.html) of my website which shows the navbar:
+
+![Home page](homepage.PNG)
 
 The website itself has 4 pages and one CSS style sheet: home page, two recipe pages, and a contact page. Bootstrap was used on all pages and they all have consistent styles and header/navbar components. The home page is a single column layout and the recipe pages are two column layout pages. 
 
