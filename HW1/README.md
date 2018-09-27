@@ -39,7 +39,7 @@ The ```-A``` option in ```git add -A``` just adds all files to staging. There's 
 
 ## The Website
 
-I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists. Didn't think I needed to get too fancy 
+I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists. Didn't think I needed to get too fancy but I did still want the website to have some actual content.
 
 Here's a screenshot of the home page (index.html) of my website which shows the navbar:
 
