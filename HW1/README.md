@@ -4,10 +4,14 @@ For the first homework assignment, we were asked to use Git (from the command li
 * [Click here for final assignment site](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
 * [Code repo for final assignment site](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW1)
 
+---
+
 ## Setup
 There wasn't much for me to setup software/tooling wise. I currently have Visual Studio, Visual Studio Code and cmder already installed to my local machine. I use cmder because you run different shells out of it as well as Git command line operations and it's just a more readable (prettier) command line interface. I am familiar with how Git works and have used it for GitHub and for Visual Studio Team Services (now Azure DevOps) but never for BitBucket. Per the instructions on this assignment, I went with GitHub.  
 
-## Git/GitHub Journey
+---
+
+## Git Commands
 To start off, I created an empty repository on GitHub called ConnerShayna_CS460 then I just created a local folder by the same name to store local code files. The requirements summary stated that Git operations should be done from command line only so I initialized my code repository locally first using the following commands:
 
 ```
@@ -30,6 +34,8 @@ git push -u origin master
 The ```-A``` option in ```git add -A``` just adds all files to staging. There's several different ways of doing this but that's just how I've always done it so it's habit now. After the first push, I made a small change to the README file to run the ```git status``` command then did another add, commit, and push then verified that change made it to my GitHub repo. Then I ran the ```git fetch``` and ```git pull``` commands but my local repo was already caught up. The ```git log``` command shows both commits made (screenshot below):
 
 ![git log](gitlog.png)
+
+---
 
 ## The Website
 I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists.  
@@ -94,5 +100,9 @@ Then I used a table on the contact page as shown below in the screenshot and cod
         </tr>
     </tbody>
 </table>
- ```           
+ ```
 
+ ---           
+
+## GitHub Pages/Portfolio
+Never made a GitHub page so struggled for a few minutes there. Thought I was supposed to create the GitHub page from the master branch of the repository that I've been working off of but I actually needed to create a separate repository where I could edit the content/display of the GitHub page and then enable that feature. Found that information here: https://guides.github.com/features/pages/. Then to link my github.io repository to my code repository, I also enabled GitHub pages for the code repository. This seemed easier than duplicating my HTML/CSS files between both repositories. 
