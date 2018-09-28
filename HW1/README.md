@@ -3,7 +3,8 @@ For the first homework assignment, we were asked to use Git (from the command li
 
 * [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW1.html)
 * [Final website](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
-* [Code repo for final assignment website](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW1)
+* [Code repo for final assignment website](https://github.com/shaynuhcon/ConnerShayna_CS460)
+* [Back to main page](../README.md)
 
 ---
 
