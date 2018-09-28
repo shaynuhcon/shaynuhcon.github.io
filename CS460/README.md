@@ -8,5 +8,8 @@
   * Coming soon!
 
 
-### All code
+### Code Repository
 All of the code contained in the blogs and for demo websites can be found here: [https://github.com/shaynuhcon/ConnerShayna_CS460](https://github.com/shaynuhcon/ConnerShayna_CS460).
+
+### Navigation
+[Back to main page](../README.md)
