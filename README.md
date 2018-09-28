@@ -4,7 +4,7 @@ Hello. I'm Shayna Conner. I'm a senior at Western Oregon University and this pag
 ### Software Engineering Series Assignments
 * [CS 460 - Software Engineering I](CS460/README.md)
 * CS 461 - Software Engineering II - Coming soon!
-* CS 462 - Software Engineering I - Coming soon!
+* CS 462 - Software Engineering III - Coming soon!
 
 ### Contact Me
 * Email: sconner15@wou.edu
