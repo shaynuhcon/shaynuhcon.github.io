@@ -42,13 +42,13 @@ The ```-A``` option in ```git add -A``` just adds all files to staging. There's 
 
 I used Visual Studio Code as my HTML/Markdown/CSS editor. Once I figured out what I wanted to make the page about, it was mostly about just getting the components on there. I went with food recipes because that's the first thing that came to my mind when I thought of ```ol``` and ```ul``` lists. Didn't think I needed to get too fancy but I did still want the website to have some actual content.
 
-Here's a screenshot of the home page (index.html) of my website which shows the navbar:
+Here's a screenshot of the [Home](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html) page of my website which shows the navbar:
 
 ![Home page](homepage.PNG)
 
 The website itself has 4 pages and one CSS style sheet: home page, two recipe pages, and a contact page. Bootstrap was used on all pages and they all have consistent styles and header/navbar components. The home page is a single column layout and the recipe pages are two column layout pages. 
 
-I used the list components on the recipe pages as shown below in the screenshot and code snippet:
+I used the list components on the [Recipe](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/mochikochicken.html) pages as shown below in the screenshot and code snippet:
 
 ![Ordered and unordered list](recipepage.PNG)
 
@@ -88,7 +88,7 @@ I used the list components on the recipe pages as shown below in the screenshot 
 </div>
 ``` 
 
-Then I used a table on the contact page as shown below in the screenshot and code snippet:
+Then I used a table on the [Contact Me](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/contact.html) page as shown below in the screenshot and code snippet:
 
 ![Table](contactpage.PNG)
 

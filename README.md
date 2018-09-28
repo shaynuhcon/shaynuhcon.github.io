@@ -1,11 +1,8 @@
 ### About Me
+Hello. I'm Shayna Conner. I'm a senior at Western Oregon University and this page is to showcase projects and assignments that I will complete as part of the Software Engineering series (CS 460, 461, and 462). 
 
-Hello. I'm Shayna. I'm a senior at Western Oregon University and this page is to showcase projects and assignments that will be completed as part of the Software Engineering series (CS 460, 461, and 462). 
-
-### Software Engineering I | Homework Assignments
-* Homework 1
-  * [Blog](HW1/README.md)
-  * [Demo](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
+### Software Engineering Series Assignments
+* [CS 460 - Software Engineering I](CS460/README.md)
 
 ### Contact Me
 * Email: sconner15@wou.edu
