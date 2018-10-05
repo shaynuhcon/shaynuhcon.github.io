@@ -7,8 +7,8 @@
   * [Blog](../HW1/README.md)
   * [Demo](https://shaynuhcon.github.io/ConnerShayna_CS460/HW1/index.html)
 * Homework Two
-  * Coming soon!
-
+  * [Blog](../HW2/README.md)
+  * [Demo](https://shaynuhcon.github.io/ConnerShayna_CS460/HW2/index.html)
 ---
 
 ### Code Repository
