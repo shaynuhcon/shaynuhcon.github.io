@@ -16,8 +16,11 @@ For our Git commands, we started using ```branch```, ```checkout```, and ```merg
 ## Design/planning
 For the Javascript/jQuery portion of this assignment, I decided to modify and build off of the website from the first assignment. I knew that I needed to do some sort of calculation and the only type of calculations I could think of (in regards to this specific site) was to do calculations on the quantity portions of the recipes page. The original sketch for this page can be found here: 
 
+<img src="sketch2.PNG" width="800"/>
+
 I also wanted some type of form submission and since I had a Contact page I figured that would be the perfect place. Here is the sketch for that page: 
 
+<img src="sketch1.PNG" width="800"/>
 
 ## The Website
 
