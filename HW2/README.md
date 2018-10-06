@@ -13,6 +13,8 @@ For our Git commands, we started using ```branch```, ```checkout```, and ```merg
 
 <img src="git.png" width="500"/>
 
+I did all my staging and commits in feature branches for both my homework assignment repository and my GitHub page repository. When ready, I merged the changes into master and pushed from there. This was different from what I'm used to since I've normally used pull requests to merge with master. 
+
 ## Design/planning
 For the Javascript/jQuery portion of this assignment, I decided to modify and build off of the website from the first assignment. I knew that I needed to do some sort of calculation and the only type of calculations I could think of (in regards to this specific site) was to do calculations on the quantity portions of the recipes page. The original sketch for this page can be found here: 
 
