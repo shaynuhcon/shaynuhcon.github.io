@@ -27,7 +27,11 @@ I also wanted some type of form submission and since I had a Contact page I figu
 ## The Website
 
 ### Navigation bar
-In the last assignment, I didn't want to jump ahead and use Javascript so I manually copied my navigation bar into each HTML page in my project. This time around, I made it  so that I had one nav.html page and used jQuery to load the navigation bar into each HTML page using ```javascript $("#nav-placeholder").load("nav.html");```. That way I didn't have to edit each HTML page for nav bar changes. 
+In the last assignment, I didn't want to jump ahead and use Javascript so I manually copied my navigation bar into each HTML page in my project. This time around, I made it  so that I had one nav.html page and used jQuery to load the navigation bar into each HTML page using the following script so I didn't have to edit each HTML page manually for navigation bar changes: 
+
+```javascript 
+$("#nav-placeholder").load("nav.html");
+``` 
 
 ### Recipe page
 Originally the recipes page had the ingredients listed in an unordered list. For better flexibility and readability, I switched the ingredients list to a table. From there, I added an ID to each row in the Quantity column so that I could grab each ID and perform calculations on them. When a user lands on the page, it calculates and displays quantities for 6 people:
