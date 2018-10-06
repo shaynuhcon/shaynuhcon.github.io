@@ -9,6 +9,9 @@
 * Homework Two
   * [Blog](../HW2/README.md)
   * [Demo](https://shaynuhcon.github.io/ConnerShayna_CS460/HW2/index.html)
+* Homework Three
+  * Coming soon!
+
 ---
 
 ### Code Repository
