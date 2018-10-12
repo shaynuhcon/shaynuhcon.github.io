@@ -1,4 +1,4 @@
-# Homework 2
+# Homework 3
 For this assignment, we started to play around with C#. As a way of introducing C# to the class, we translated a Java program to C#. 
 
 * [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW3_1819.html)
