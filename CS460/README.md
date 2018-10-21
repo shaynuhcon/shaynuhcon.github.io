@@ -13,8 +13,10 @@
   * [Blog](../HW3/README.md)
   * [Code repo for HW3](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW3)
 * Homework Four
+  * [Blog](../HW4/README.md)
+  * [Code repo for HW3](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW4)
+* Homework Five
   * Coming soon!
-
 ---
 
 ### Code Repository
