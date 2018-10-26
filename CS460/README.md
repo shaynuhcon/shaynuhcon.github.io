@@ -16,8 +16,14 @@
   * [Blog](../HW4/README.md)
   * [Code repo for HW3](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW4)
 * Homework Five
-  * Coming soon!
----
+  * [Blog](../HW5/README.md)
+  * [Code repo for HW3](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW5)
+  * [YouTube video of project](https://youtu.be/lpgjOclANSk)
+* Homework Six
+  * *Coming soon!*
+
+  
+  ---
 
 ### Code Repository
 All of the code contained in the blogs and for demo websites can be found here: [https://github.com/shaynuhcon/ConnerShayna_CS460](https://github.com/shaynuhcon/ConnerShayna_CS460).
