@@ -10,9 +10,9 @@ For assignment 6, we used the "Code First with an Existing Database" workflow an
 ---
 
 ## Code First with Existing Database and Entity Framework
-As usual, I created an empty MVC project. Then I downloaded and restored the database assigned for this project. I have used EF many times with an existing database have not used the tool/wizard that generates the code for you. It is handy for importing a large database to code however I've never used one large database at once so that is likely why I've never had to use this tool before. When building other projects or APIs I usually just bring in the tables/data that I am using and build my own models/configurations. In any case, this was still a great tool for bringing in a large amount of data where it would be too time consuming to build many models and configurations. 
+As usual, I started out by creating an empty MVC project. Then I downloaded and restored the database assigned for this project. I have used EF many times with an existing database but have not used the tool/wizard that generates the code for you. It is handy for importing a large database to code however I've never had to pull in one large database at once so that is likely why I've never had to use this tool before. When building other projects or APIs I usually just bring in the tables/data that I am using then build my own models/configurations. In any case, this was still a great tool for bringing in a large amount of data where it would be too time consuming to build many models and configurations. 
 
-I use SQL Server Management Studio a lot so didn't have any issues there. Here is a screenshot of the database/tables in SSMS:
+I use SQL Server Management Studio daily so didn't have any issues there. Here is a screenshot of the database/tables in SSMS:
 
 <img src="database.PNG" width="400"/>
 
@@ -230,7 +230,7 @@ public ActionResult GetPrimaryContact(int id)
 }
 ```
 
-For this, I used one ```CustomerViewModel``` compromised of other view models to pass to the view:
+For the view model for this feature, I used one ```CustomerViewModel``` which contained view models to pass to the view:
 
 ```csharp
 // Main ViewModel for Customer Dashboard feature
@@ -250,7 +250,7 @@ public class CustomerViewModel
 }
 ```
 
-This just seemed a lot cleaner to me as opposed to having just one view model with a ton of properties. This way, I can see it easily broken down into different categories while still only needing to maintain the values I retrieve from the database without the extra fluff. I also used a different view called ```CustomerDashboard.cshtml```. Normally I would've just created this section in a partial view and used the same ```Get.cshtml``` view from the first feature but decided to just keep these separated for this assignment. 
+This seemed a lot cleaner to me as opposed to having just one view model with a ton of properties. This way, I can see it easily broken down into different categories while still only needing to maintain the values I retrieve from the database without the extra fluff. I also used a different view called ```CustomerDashboard.cshtml```. Normally I would've just created this section in a partial view and used the same ```Get.cshtml``` view from the first feature but decided to just keep these separated for this assignment. 
 
 Here is a video link demonstrating the Customer Saleas Dashboard feature:
 
