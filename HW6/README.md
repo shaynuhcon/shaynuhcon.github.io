@@ -3,6 +3,8 @@ For assignment 6, we used the "Code First with an Existing Database" workflow an
 
 * [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW6_1819.html)
 * [Code repo for assignment](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW6)
+* [YouTube video of People Search feature](https://youtu.be/7dAVCNjv-Ow)
+* [YouTube video of Customer Sales Dashboard feature](https://youtu.be/WkwDgWSmKSE)
 * [Back to main page](../README.md)
 
 ---
@@ -130,7 +132,7 @@ The Search method simply returns the Search view as shown below:
 
 Here is a video link demonstrating the People Search feature:
 
-[![Video of form being used](vidScreenshot.PNG)](https://youtu.be/lpgjOclANSk)
+[![Video of form being used](vidScreenshotOne.PNG)](https://youtu.be/7dAVCNjv-Ow)
 
 ## Customer Sales Dashboard Feature
 For this feature, I used the same Search/Get methods as before however I built on top of them to accommodate the new functionality requested. First, I updated the ```Get``` method to also check if the person was a ```PrimaryContactPerson``` on the ```Customer``` table by adding the following lines:
@@ -252,7 +254,7 @@ This just seemed a lot cleaner to me as opposed to having just one view model wi
 
 Here is a video link demonstrating the Customer Saleas Dashboard feature:
 
-[![Video of form being used](vidScreenshot.PNG)](https://youtu.be/lpgjOclANSk)
+[![Video of form being used](vidScreenshotTwo.PNG)](https://youtu.be/WkwDgWSmKSE)
 
 ## Map Feature
 I did include a map on the Customer Sales Dashboard results. The location details are stored in the ```CompanyViewModel``` and those properties are retrieved in the LINQ query shown above in the ```GetPrimaryContact``` method:
@@ -286,4 +288,4 @@ public class CompanyViewModel
 }
 ```
 
- <img src="map.PNG" width="600"/>
+ <img src="map.PNG" width="400"/>
