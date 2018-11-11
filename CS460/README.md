@@ -25,6 +25,10 @@
   * [YouTube video of People Search feature](https://youtu.be/7dAVCNjv-Ow)
   * [YouTube video of Customer Sales Dashboard feature](https://youtu.be/WkwDgWSmKSE)
 * Homework Seven
+  * [Blog](../HW7/README.md)
+  * [Code repo for HW7](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW7)
+  * [YouTube video of Internet Language Translator](https://youtu.be/KFKtfWC4L2U)
+* Homework Eight
   * *Coming soon!*
   
   ---
