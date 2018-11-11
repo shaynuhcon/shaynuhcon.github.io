@@ -205,7 +205,21 @@ If it's in the "boring" words list, the single word is posted back as a string d
 <img src="output.PNG" width="800"/>
  
 ## Logging 
-For the logging portion of this assignment, I named the database Logging and the table RequestLog. Logged the date and time the request was made as well as the URL, IP address, and browser of the request. I also added a Word column which logs the ```lastWord``` variable. The Word value is nullable because clearing the textbox or refreshing the page doesn't require any input:
+For the logging portion of this assignment, I created the database and called it Logging. Here is the script for the RequestLog table itself:
+
+```sql
+CREATE TABLE [dbo].[RequestLog](
+	[RequestID] [int] IDENTITY(1,1) NOT NULL,
+	[DateInserted] [datetime] NOT NULL,
+	[RequestUrl] [nvarchar](max) NOT NULL,
+	[RequestType] [nvarchar](50) NOT NULL,
+	[Word] [nvarchar](max) NULL,
+	[IP] [nvarchar](50) NOT NULL,
+	[Browser] [nvarchar](max) NOT NULL)
+GO
+``` 
+
+The table keeps track of the date and time each web request was made as well as the URL, IP address, and browser of the request. I also added a Word column which logs the ```lastWord``` variable. The Word value is nullable because clearing the textbox or refreshing the page doesn't require any input:
 
 <img src="loggingDb.PNG" width="400"/>
 
