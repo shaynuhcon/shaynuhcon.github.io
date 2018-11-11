@@ -11,9 +11,9 @@ For assignment 7, we used AJAX to build a single page, dynamic MVC application.
 ## Giphy API
 Before I messed around with the view and custom routing, I became familiar with the Giphy Sticker API. We build and call a lot of APIs both for internal and external use at work so this part was pretty simple. From the assignment page, I knew we were using the ```v1/stickers/translate``` endpoint so I just needed to figure out the parameters required which I found on the Giphy doc page:
 
-<img src="stickerAPI.PNG" width="700"/>
+<img src="sticker.PNG" width="700"/>
 
-I went with the RestSharp nuget package for this because it's what I'm familiar with. Normally, I'd put the API calls in a separate data layer and use a service to access and transform the data but for the sake of simplicity, I placed the login in my ```TranslateController``` method. I put both the base Giphy URL and the API key in the secrets file: 
+I went with the RestSharp nuget package for this because it's what I'm familiar with. Normally, I'd put the API calls in a separate data layer and use a service to access and transform the data but for the sake of simplicity, I placed the API call in my ```TranslateController``` method. To start off, I put both the base Giphy URL and the API key in the secrets file: 
 
 ```xml
 <appSettings>
@@ -29,7 +29,7 @@ private readonly string _baseUrl = ConfigurationManager.AppSettings["GiphyUrl"];
 private readonly string _apiKey = ConfigurationManager.AppSettings["GiphyKey"];
 ```
 
-I could have just put the base URL in the appSettings section directly in Web.config instead of the secrets file since I didn't really need to obfuscate that part. Decided to just put it in the secrets file to keep those two variables together. Below is the actual call to the Giphy API that resides in the ```Translate``` method in the ```TranslateController``` class: 
+I could have just put the base URL in the appSettings section directly in the Web.config file instead of the secrets file since I didn't really need to obfuscate that part. But I decided to just put it in the secrets file to keep those two related variables together. Below is the actual call to the Giphy API that resides in the ```Translate``` method in the ```TranslateController``` class: 
 
 ```csharp
 // Initialize RestClient with base Giphy URL
@@ -48,7 +48,11 @@ var data = new JavaScriptSerializer().Deserialize<object>(response.Content);
 return Json(data, JsonRequestBehavior.AllowGet);
 ```
 
-This is where I used the parameters as listed on Giphy's docs: the Giphy API key parameter (```api_key```) and the search term parameter (```s```). The ```IRestResponse``` object contains the string data in the Content property as well as response headers and other properties I didn't need. I converted that to a json object and sent that data to the view.
+This is where I used the parameters as listed on Giphy's docs: 
+* the Giphy API key parameter (```api_key```) 
+* the search term parameter (```s```)
+
+The ```IRestResponse``` object contains the string data in the Content property as well as response headers and other properties I didn't need. I converted that to a json object and sent that data to the view.
 
 ## Single Page View
 The ```Translator.cshtml``` view I made is really simple:
@@ -84,7 +88,7 @@ The ```Translator.cshtml``` view I made is really simple:
 The ```output``` div is where either a string or an image element will be appended to when the space button is pressed. 
 
 ## Custom Routing and AJAX
-Never used custom routing before but it was a pretty straight-forward concept to grasp and seems really useful. I have one custom route and tested it by changing the parameters to see if an error is thrown:
+Never used custom routing before but it was a pretty straight-forward concept to grasp and seems really useful. I have one custom route and tested it by changing the parameters to see if an error was thrown:
 
 ```csharp
 // Custom route for Translate/Translator/{lastWord} method 
