@@ -36,6 +36,8 @@
   * [Blog](../HW9/README.md)
   * [Code repo for HW8](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
   * [Deployed Auction House Website](http://connerhw8.azurewebsites.net/)  
+  * [YouTube video of deployed Auction House website](https://youtu.be/NVZj5PWiIjs)
+
 
  ---
 

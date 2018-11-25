@@ -4,6 +4,7 @@ For assignment 9, we deployed our website and database from homework 8 to Azure.
 * [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW9_1819.html)
 * [Code repo for assignment](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
 * [Deployed Auction House Website](http://connerhw8.azurewebsites.net/)
+* [YouTube video of deployed Auction House website](https://youtu.be/NVZj5PWiIjs)
 * [Back to main page](../README.md)
 
 ---
@@ -41,3 +42,8 @@ As shown in the screenshots above, I used a ```Release``` configuration for the 
 ## Screenshot of Deployed Web App
 
 <img src="deployed.PNG" width="1000"/>
+
+## Link to YouTube Demonstration
+Basically the same thing as my HW8 demo video except it's from the deployed web app itself. Didn't show all the functionality since I did so in the other video:
+
+[![Video of deployed website being used](demoScreenshot.PNG)](https://youtu.be/NVZj5PWiIjs)
