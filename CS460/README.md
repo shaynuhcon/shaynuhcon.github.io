@@ -33,9 +33,11 @@
   * [Code repo for HW8](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
   * [YouTube video of Auction House website](https://youtu.be/qhaDcfE8eEY)
 * Homework Nine
-  * *Coming soon!*
-  
-  ---
+  * [Blog](../HW9/README.md)
+  * [Code repo for HW8](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
+  * [Deployed Auction House Website](http://connerhw8.azurewebsites.net/)  
+
+ ---
 
 ### Code Repository
 All of the code contained in the blogs and for demo websites can be found here: [https://github.com/shaynuhcon/ConnerShayna_CS460](https://github.com/shaynuhcon/ConnerShayna_CS460).
