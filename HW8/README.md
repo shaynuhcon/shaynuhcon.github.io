@@ -1,5 +1,5 @@
 # Homework 8
-For assignment 8, we created our own multi-table, relational database to build an MVC web application that resembled a live-bidding auction 
+For assignment 8, we created our own multi-table, relational database to build an MVC web application that resembled a live-bidding auction website.
 
 * [Assignment page](http://www.wou.edu/~morses/classes/cs46x/assignments/HW8_1819.html)
 * [Code repo for assignment](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
