@@ -29,6 +29,10 @@
   * [Code repo for HW7](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW7)
   * [YouTube video of Internet Language Translator](https://youtu.be/KFKtfWC4L2U)
 * Homework Eight
+  * [Blog](../HW8/README.md)
+  * [Code repo for HW8](https://github.com/shaynuhcon/ConnerShayna_CS460/tree/master/HW8)
+  * [YouTube video of Auction House website](https://youtu.be/qhaDcfE8eEY)
+* Homework Nine
   * *Coming soon!*
   
   ---
