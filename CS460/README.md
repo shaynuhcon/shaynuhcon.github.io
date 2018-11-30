@@ -46,5 +46,15 @@ All of the code contained in the blogs and for demo websites can be found here: 
 
 ---
 
+### Resources
+* [LINQ](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/method-based-query-examples-linq-to-dataset)
+* [JavaScript](https://autotelicum.github.io/Smooth-CoffeeScript/literate/js-intro.html)
+* [jQuery](https://oscarotero.com/jquery/)
+* [Razor HTML Helpers](https://www.dotnettricks.com/learn/mvc/understanding-html-helpers-in-aspnet-mvc)
+* AJAX
+  * [Basics](https://antonydandrea.com/a-quick-guide-to-ajax/)
+  * [AJAX/MVC](http://www.dotnet-programming.com/post/2012/04/02/Calling-MVC-Action-from-Javascript.aspx)
+---
+
 ### Navigation
 [Back to main page](../README.md)
